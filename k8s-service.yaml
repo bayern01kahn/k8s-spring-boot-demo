@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: k8s-service
-        image: registry.cn-qingdao.aliyuncs.com/hellowoodes/k8s-service
+        image: k8s-service:demo
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
